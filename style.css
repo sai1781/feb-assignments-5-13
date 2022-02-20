@@ -1,20 +1,3 @@
-h6{
-    font-size: 100px;
+h1{
     text-align: center;
-    margin: 0px;
-    color: red;
-    font-stretch: condensed;
-}
-h1,h2,h3,h4,h5{
-    text-align: center;
-    margin-top: 50px;
-    background-color: blue;
-    margin: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-p{
-    font-size: 1rem;
-    color: black;
-    background-color: yellow;
 }

@@ -2,29 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresher" content="1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naga sai Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
     <script src="script"></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-   <div>  
-    <h1>naga sai</h1>
-    <h2>Naga sai</h2>
-    <h3>Naga sai</h3>
-    <h4>Naga sai</h4>
-    <h5>Naga sai</h5>
-    <h6>Naga sai</h6> 
-   </div>
-   <div>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quibusdam rem itaque pariatur ex, quaerat alias nobis provident eos odio, dolorem ea saepe? Voluptatem laboriosam voluptas nemo praesentium possimus dolore exercitationem mollitia sint quos pariatur reprehenderit accusantium corrupti quam, aliquam blanditiis quas nesciunt odio saepe, voluptatibus qui ratione provident autem eligendi? Veritatis nihil at reiciendis, mollitia natus consequuntur consectetur provident omnis quo! Facere omnis molestiae blanditiis nam assumenda deleniti quaerat dolor, obcaecati repellendus? Vero fuga temporibus asperiores nam saepe consequatur distinctio adipisci ut cum vel natus labore facilis quos, hic magnam modi enim quibusdam blanditiis. Nihil error magnam neque nesciunt!
+    <h1>Application Form</h1>
+    <form action="/feb 07/feedback.html">
+    <table >
+        <tr>
+            <th>
+            Full name
+            <br />
+            <input type="text" placeholder="Enter the name" name="user_name"value="" pattern=".[a-z{30}|A-Z{30}"] required />
+            <br />
+            
+            </th>
+            <th>
+                Email*
+                <br />
+                <input type="email" required placeholder="enter email" name="User_email" pattern=".+@gmail\.com" />
+
+            </th>
+        </tr>  
+    </table>  
+    <br />
+    <br />
+            
+    
+    <table>
+        <tr>
+            <th>
+                Phone number*
+                <br />
+                <input type="number" placeholder="enter the mobile number" name="user_number" required pattern=".[1-9].[0-9]{9}" />
+            </th>
+            <th>
+                Highest Degree*
+                &nbsp;
+                <br />
+                <select>
+                    <option disabled selected>select highest degree</option>
+                    <option value="1">be or b.tech cse/it </option>
+                    <option value="2" >Ms or M.tech cse/it</option>
+                    <option value="3" >b.com or Bse </option>
+                    <option value="4">others</option>
+                    <br />
+                    <br />
+
+
+                </select>
+            </th>
+        </tr>
            
-       </p>
+</table>
+    <table>
+        <tr>
+            <th>
+                <br />
+                year of Completion
+                <br />
+                <select maxlength="10px" >
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                </select>
+            </th>
+            <th>
+                <select>
+                    Programming Skills
+                    <br />
+                    <option disabled selected>  select programming skills<option>
+                    <option>nocodding skills</option>
+                    <option>basic coding skills</option>
+                    <option>Intermediate coding skills</option>
+                    <option>Advanced coding skills</option>
+                </select>
+            </th>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <input type="checkbox" >By signing up, you agree to the terms and conditions of geekster.
+    <br />
+    <br />
+    
+    <input type="submit">    
+    
+    
 
-   </div>
-   <div>
 
-   </div>
+
+
+    </form>
 </body>
 </html>
